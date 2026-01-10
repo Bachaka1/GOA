@@ -1,0 +1,84 @@
+<!-- form გამოიყენება მომხმარებლისგან მონაცემების მისაღებად -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Type</title>
+</head>
+<body>
+
+    <h2>User Information</h2>
+
+    <!-- text type - used for entering textual data like name, surname, etc. -->
+    <label>Full Name:</label><br>
+    <input type="text" placeholder="Enter your full name">
+    <br><br>
+
+    <!-- password type - used for entering passwords (text is hidden) -->
+    <label>Password:</label><br>
+    <input type="password" placeholder="Enter your password">
+    <br><br>
+
+    <!-- email type - used for entering email addresses (validates email format) -->
+    <label>Email:</label><br>
+    <input type="email" placeholder="example@mail.com">
+    <br><br>
+
+    <!-- month type - used for selecting month and year -->
+    <label>Select Month:</label><br>
+    <input type="month">
+    <br><br>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook - Registration</title>
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+        button {
+            background-color: #1877f2;
+            color: white;
+        }
+        a {
+            display: block;
+            color: #1877f2;
+        }
+        img {
+            width: 200px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook Logo">
+
+        <h2>Create a new account</h2>
+
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="month" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <a href="https://en.wikipedia.org/wiki/Facebook">Go To About Facebook Page</a>
+        <a href="contact.html">Contact Page</a>
+    </div>
+
+</body>
+</html>
+
+
