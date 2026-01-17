@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Forms Without Frames</title>
+</head>
+<body>
+
+<h2>Personal Details</h2>
+
+<form>
+    <label for="salutation">Salutation:</label><br>
+    <select id="salutation" name="salutation">
+        <option value="">--None--</option>
+        <option value="mr">Mr</option>
+        <option value="ms">Ms</option>
+        <option value="mrs">Mrs</option>
+    </select>
+    <br><br>
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="firstname">
+    <br><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lastname">
+    <br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+
+<h2>Students Data Entry Form</h2>
+
+<form>
+    <label>Student Name:</label><br>
+    <input type="text" name="studentname">
+    <br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="studentemail">
+    <br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="studentgender" value="boy"> Boy
+    <input type="radio" name="studentgender" value="girl"> Girl
+    <br><br>
+
+    <label>Subjects:</label><br>
+    <input type="checkbox" name="subjects" value="Tamil"> Tamil
+    <input type="checkbox" name="subjects" value="Telugu"> Telugu
+    <input type="checkbox" name="subjects" value="English"> English
+    <input type="checkbox" name="subjects" value="Physics"> Physics
+    <input type="checkbox" name="subjects" value="Economics"> Economics
+    <br><br>
+
+    <label>City / Town:</label><br>
+    <select name="city">
+        <option>Madurai</option>
+        <option>a</option>
+        <option>b</option>
+        <option>c</option>
+    </select>
+    <br><br>
+
+    <label>Comments:</label><br>
+    <textarea rows="4" cols="40" name="comments"></textarea>
+    <br><br>
+
+    <input type="reset" value="Clear">
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+
+<h2>HTML Option Tag</h2>
+<select>
+    <option>Choose an option</option>
+    <option>HTML</option>
+    <option>JAVA</option>
+    <option>C++</option>
+    <option>PHP</option>
+    <option>PERL</option>
+</select>
+
+</body>
+</html>
