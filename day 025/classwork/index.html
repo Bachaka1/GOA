@@ -1,0 +1,92 @@
+<!--Inline CSS ნიშნავს, რომ სტილი იწერება პირდაპირ HTML ელემენტში style ატრიბუტის გამოყენებით.
+როცა გვინდა სწრაფად შევცვალოთ კონკრეტული ელემენტის სტილი
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline CSS მაგალითი</title>
+</head>
+<body>
+
+
+  <h1 style="color: red; text-align: center;">
+    სათაური
+  </h1>
+
+
+  <p style="color: green; font-size: 18px;">
+    პარაგრაფი
+  </p>
+
+
+  <div style="background-color: lightblue; padding: 10px;">
+    div ელემენტი
+  </div>
+
+
+  <button style="background-color: purple; color: white; border-radius: 8px; display: block; margin-bottom: 10px;">
+    button
+  </button>
+
+
+  <span style="color: orange; font-weight: bold; display: block;">
+    span ტექსტი
+  </span>
+
+
+</body>
+</html>
+
+
+<!-- დადებითი
+სწრაფი გამოყენება — პირდაპირ HTML-ში იწერება -->
+
+<!-- უარყოფითი
+ კოდი ირევა და რთულად წასაკითხი ხდება -->
+
+
+ <!--Internal CSS არის სტილების აღწერის მეთოდი, რომელიც იწერება HTML დოკუმენტის <head> ნაწილში <style> თეგის გამოყენებით
+ მარტივია გამოყენება – ყველაფერი ერთ ფაილშია 
+ არ გვჭირდება დამატებითი ფაილის დაკავშირება-->
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Internal CSS ერთ ფაილში</title>
+
+  <style>
+    p, button {
+      background-color: purple;
+      color: white;
+      font-size: 18px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      margin: 10px 0;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <p>ეს არის პირველი პარაგრაფი.</p>
+  <p>ეს არის მეორე პარაგრაფი.</p>
+  <p>ეს არის მესამე პარაგრაფი.</p>
+  <p>ეს არის მეოთხე პარაგრაფი.</p>
+  <p>ეს არის მეხუთე პარაგრაფი.</p>
+
+  
+  <button>დააჭირე აქ</button>
+
+</body>
+</html>
+
+<!--Internal CSS-ის უპირატესობები Inline CSS-სთან შედარებით:
+ კოდი უფრო ორგანიზებულია
+ უკეთესად მუშაობს დიდი პროექტებისთვის და უფრო მასშტაბურია  -->
