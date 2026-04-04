@@ -1,0 +1,78 @@
+<!-- 
+    External CSS არის ცალკე (.css) ფაილი, სადაც ინახება ვებსაიტის სტილები (დიზაინი).
+ეს ფაილი უკავშირდება HTML დოკუმენტს და გამოიყენება გვერდის გასაფორმებლად.
+
+
+Inline CSS:
+- იწერება პირდაპირ HTML ტეგში style ატრიბუტით
+მაგ: <p style="color:red;">Text</p>
+
+Internal CSS:
+- იწერება HTML ფაილში <style> ტეგში
+- მოქმედებს მხოლოდ ერთ გვერდზე
+
+External CSS:
+- ცალკე .css ფაილში ინახება
+- უკავშირდება HTML-ს
+
+
+HTML და CSS ფაილების დასაკავშირებლად გამოიყენება <link> ტეგი <head> ნაწილში
+
+მაგალითი:
+
+<link rel="stylesheet" href="styles.css">
+
+სადაც:
+- rel="stylesheet" ნიშნავს რომ ეს არის სტილის ფაილი
+- href მიუთითებს CSS ფაილის მისამართს
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Tasks</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Internal CSS -->
+  <style>
+    h2 {
+      color: blue;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- External CSS-->
+  <h1>ეს არის სათაური</h1>
+  <p>ეს არის პარაგრაფი</p>
+
+  <hr>
+
+  <!-- Class -->
+  <h1 class="my-style">სათაური</h1>
+  <p class="my-style">ეს არის პარაგრაფი</p>
+  <div class="my-style">ეს არის div ელემენტი</div>
+
+  <hr>
+
+  <!-- Internal + Inline -->
+  <h2 style="color: red;">Inline აჯობებს Internal-ს</h2>
+
+  <hr>
+
+  <!-- Div Styling -->
+  <div class="box"></div>
+
+  <hr>
+
+  <!-- Card Design -->
+  <div class="card">
+    <h1>Welcome</h1>
+    <p>დიზაინი external CSS-ის გამოყენებით.</p>
+    <button>Click Me</button>
+  </div>
+
+</body>
+</html>

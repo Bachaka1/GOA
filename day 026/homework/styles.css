@@ -1,0 +1,98 @@
+/* body-ის სტილი */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* h1 სტილი */
+h1 {
+  color: darkblue;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px gray;
+  margin-top: 50px;
+}
+
+/* p სტილი */
+p {
+  color: #333;
+  font-size: 20px;
+  background-color: lightyellow;
+  padding: 15px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+
+
+
+/* ერთი class, რომელიც სამივე ელემენტს ერთნაირად გაასტილავს */
+.my-style {
+  color: white;
+  background-color: teal;
+  font-size: 24px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+/* class-ის გამოყენებით div-ის გასტილვა */
+.box {
+  background-color: coral;
+  width: 300px;
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+
+
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card {
+  background-color: white;
+  width: 320px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+.card h1 {
+  color: #333;
+}
+
+
+.card p {
+  color: #666;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+
+.card button {
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #007bff;
+}
