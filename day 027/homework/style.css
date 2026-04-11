@@ -1,0 +1,135 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    background-color: rgb(50, 0, 100);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00ffcc;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #222;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+/* გვერდის სტილი */
+body {
+    background-color: #ddd;
+    font-family: Arial;
+    padding: 40px;
+}
+
+/* ------------------------- */
+/* 1. წითელი underline link */
+/* ------------------------- */
+.link1:link {
+    color: red;
+    text-decoration: underline;
+}
+
+.link1:hover {
+    background-color: pink;
+}
+
+/* ------------------------- */
+/* 2. მწვანე link */
+/* ------------------------- */
+.link2:link {
+    color: #00cc66;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------- */
+/* 3. Button style link */
+/* ------------------------- */
+.link3 {
+    display: inline-block;
+    background-color: #2d1bb3;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.link3:hover {
+    background-color: #1a0f80;
+}
+
+/* ------------------------- */
+/* 4. styled link ტექსტში */
+/* ------------------------- */
+.link4:link {
+    color: #7a5cff;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.link4:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 4px;
+}
