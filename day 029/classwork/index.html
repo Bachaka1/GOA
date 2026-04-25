@@ -1,0 +1,80 @@
+<!--
+ font-style არის CSS კუთვნილება, რომელიც განსაზღვრავს ტექსტის სტილს.
+   მისი ძირითადი მნიშვნელობებია:
+   normal  - სტანდარტული ტექსტი
+   italic  - დახრილი ტექსტი
+   oblique - ასევე დახრილი, მაგრამ ტექნიკურად განსხვავებული.
+
+   გამოიყენება დიზაინისთვის, აქცენტების გასაკეთებლად,
+   ან ტექსტის ვიზუალური მრავალფეროვნებისთვის.
+
+
+p {
+  font-style: italic; ტექსტი იქნება დახრილი 
+}
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.text-example {
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<p class="text-example">
+ეს არის ტექსტი, რომელსაც მინიჭებული აქვს font-style.
+</p>
+
+</body>
+</html>
+
+
+<!--
+ pseudo selector (ფსევდო-სელექტორი) არის CSS მექანიზმი,
+   რომელიც გვაძლევს საშუალებას გავსტილოთ ელემენტი.
+
+   მაგალითად:
+   :hover  - როცა მაუსი გადაგვაქვს ელემენტზე
+   :active - როცა ვაჭერთ ელემენტს
+   :visited - უკვე ნანახი ლინკი
+   :link - ჩვეულებრივი (არანანახი) ლინკი
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+}
+
+</style>
+</head>
+<body>
+
+<a href="https://example.com">დააჭირე აქ</a>
+
+</body>
+</html>
