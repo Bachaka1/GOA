@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 40px;
+}
+
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    width: 260px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login {
+    border: 5px solid #2bbcd3;
+}
+
+.login h3 {
+    color: #2bbcd3;
+}
+
+.register {
+    border: 5px solid #c9a2a2;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login .btn {
+    background: #2bbcd3;
+}
+
+.register .btn {
+    background: #2ecc71;
+}
+
+.forms {
+    display: flex;
+    gap: 40px;
+}
+
+
+.signup-box {
+    background: #3d3d3d;
+    padding: 30px;
+    width: 260px;
+    border-radius: 4px;
+}
+
+.signup-box h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.signup-box input {
+    background: transparent;
+    border: 1px solid #aaa;
+    color: #fff;
+}
+
+.signup-box button {
+    width: 100%;
+    padding: 10px;
+    background: #b7c36b;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-box {
+    background: #141428;
+    padding: 30px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    background: transparent;
+    border: 2px solid #e06666;
+    color: #fff;
+}
+
+.contact-box textarea {
+    height: 120px;
+}
+
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    background: #e06666;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="card login">
+        <h3>Login To Your Account</h3>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button class="btn">Login</button>
+    </div>
+
+    <div class="card register">
+        <h3>CREATE YOUR ACCOUNT</h3>
+        <small>This is step 1</small>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button class="btn">Next</button>
+    </div>
+</div>
+
+<div class="forms">
+    <div class="signup-box">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm password">
+        <button>Sign Up</button>
+    </div>
+
+    <div class="contact-box">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Comment"></textarea>
+        <button>SUBMIT</button>
+    </div>
+</div>
+
+</body>
+</html>

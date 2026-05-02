@@ -1,0 +1,42 @@
+.ordered1 {
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.ordered2 {
+  text-transform: capitalize;
+  color: darkgreen;
+}
+
+
+.unordered1 {
+  text-transform: lowercase;
+  color: darkred;
+}
+
+.unordered2 {
+  text-transform: none;
+  color: purple;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background-color: #5ef2d6;
+  font-weight: bold;
+}
+
+tr {
+  background-color: #7fffe1;
+}
