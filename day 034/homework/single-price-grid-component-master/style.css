@@ -1,0 +1,150 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root{
+  --teal-500:hsl(179, 62%, 43%);
+  --green-400:hsl(71, 73%, 54%);
+  --teal-100:hsl(204, 43%, 93%);
+  --gray-500:hsl(218, 22%, 67%);
+  --white:#fff;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:var(--teal-100);
+  font-family:'Karla', sans-serif;
+  padding:20px;
+}
+
+.card{
+  max-width:700px;
+  border-radius:10px;
+  overflow:hidden;
+  background:var(--white);
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.top-section{
+  padding:40px;
+  background:var(--white);
+}
+
+.top-section h1{
+  color:var(--teal-500);
+  margin-bottom:25px;
+  font-size:32px;
+}
+
+.top-section h2{
+  color:var(--green-400);
+  margin-bottom:18px;
+  font-size:20px;
+}
+
+.top-section p{
+  color:var(--gray-500);
+  line-height:1.8;
+  font-size:16px;
+}
+
+.bottom-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.subscription{
+  background:var(--teal-500);
+  padding:40px;
+  color:var(--white);
+}
+
+.subscription h3{
+  margin-bottom:20px;
+  font-size:22px;
+}
+
+.price-box{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:15px;
+}
+
+.price{
+  font-size:40px;
+  font-weight:700;
+}
+
+.month{
+  color:rgba(255,255,255,0.7);
+}
+
+.subscription p{
+  margin-bottom:30px;
+}
+
+.subscription button{
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:6px;
+  background:var(--green-400);
+  color:var(--white);
+  font-size:16px;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow:0 5px 15px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.subscription button:hover{
+  opacity:0.9;
+}
+
+.why-us{
+  background:#4abebd;
+  padding:40px;
+  color:var(--white);
+}
+
+.why-us h3{
+  margin-bottom:20px;
+  font-size:22px;
+}
+
+.why-us ul{
+  list-style:none;
+}
+
+.why-us li{
+  margin-bottom:8px;
+  color:rgba(255,255,255,0.8);
+  font-size:15px;
+}
+
+@media(max-width:640px){
+
+  .bottom-section{
+    grid-template-columns:1fr;
+  }
+
+  .top-section,
+  .subscription,
+  .why-us{
+    padding:30px;
+  }
+
+  .top-section h1{
+    font-size:28px;
+  }
+
+  .top-section h2{
+    font-size:18px;
+  }
+}
